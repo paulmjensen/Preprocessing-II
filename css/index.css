@@ -174,11 +174,18 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 2px dotted gray;
+  border-bottom: 2px dashed #C0C0C0;
+  margin-bottom: 0%;
+}
+.LogoandNav h1 {
+  margin-left: 5%;
+}
+.LogoandNav nav {
+  margin-right: 5%;
 }
 .LogoandNav nav a {
   text-decoration: none;
-  font: black;
+  color: #212529;
   font-size: 16px;
   padding: 8px;
 }
@@ -238,4 +245,20 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+/*--------------Main Header-------------*/
+.MainHeader {
+  border-bottom: 2px dashed #C0C0C0;
+  width: 60%;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.MainHeader div {
+  display: flex;
+  justify-content: center;
+}
+.MainHeader h2 {
+  margin-top: 3%;
 }
