@@ -59,3 +59,46 @@
     }
   }
 }// home
+/*--------------Main Header-------------*/
+.MainHeader{
+  border-bottom: 2px dashed @navigation-border;
+  width: 60%;
+  margin: 0% auto;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  
+  div{
+    display: flex;
+    justify-content: center;
+
+    }
+  
+  h2{
+    margin-top: 3%;
+  }
+}
+//-----------Mobile View------------//
+
+.MainHeader{
+  @media @mobile{
+    width: 100%;
+}
+  div, h2, p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.content-section{
+  @media @mobile{
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  
+}
+}
